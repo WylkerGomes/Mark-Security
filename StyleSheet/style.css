@@ -9,6 +9,7 @@ ul a:hover{
 nav li{
     text-align: center;
     text-transform: uppercase;
+    height: 200px;
 
 }
 li > a:after{
