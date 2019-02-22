@@ -6,11 +6,16 @@ body{
 ul a:hover{
     color: red !important;
 }
+
+nav{
+    height: 100px;
+
+}
+
 nav li{
     text-align: center;
     text-transform: uppercase;
-    height: 200px;
-
+    
 }
 li > a:after{
     content: '';
