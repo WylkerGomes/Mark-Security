@@ -1,5 +1,8 @@
-body{
+.container-fluid{
     font-family: "Times New Roman", Times, serif;
+    padding-left: 250px;
+    padding-right: 250px;
+    
 }
 
 /*nav*/
@@ -9,13 +12,22 @@ ul a:hover{
 
 nav{
     height: 100px;
+    background-color: dimgrey;
 
 }
 
 nav li{
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase;   
     
+}
+nav a{
+    color: white !important;
+    font-size: 1.8em !important;
+}
+
+li > .nav-item{
+    margin-bottom: 
 }
 li > a:after{
     content: '';
@@ -37,12 +49,15 @@ li > a:hover:after{
 .contact{
     margin-left: ;
     padding-right:;
-    
 }
+
+
 
 /*Image carosel*/
 
+
 .carousel-inner{
     
+    overflow-x: hidden;
 
 }
