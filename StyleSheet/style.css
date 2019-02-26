@@ -1,7 +1,7 @@
-.container-fluid{
+.container-box{
     font-family: "Times New Roman", Times, serif;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 10%;
+    padding-right: 10%;
     
 }
 
@@ -11,8 +11,8 @@ ul a:hover{
 }
 
 nav{
-    height: 100px;
-    background-color: dimgrey;
+    height: ;
+    background-color:;
 
 }
 
@@ -23,12 +23,61 @@ nav li{
 }
 nav a{
     color: white !important;
-    font-size: 1.8em !important;
+    font-size: 1em !important;
 }
 
-li > .nav-item{
-    margin-bottom: 
+/*
+.contact nav-item{
+    
+    height: 20px;
+    width: 20px;
+    margin-left: 50px;
 }
+.contact{
+    padding-left: 70%;
+    padding-bottom: 0px;
+    
+}
+*/
+/*navbar button layout */
+
+.navbar{
+    background-color:;
+}
+
+.navbar-default{
+    margin-top: 8;
+    background-color: black;
+    border-color: gray;
+}
+.navbar-default .icon-bar {
+    background-color: white;
+}
+.navbar-default-nav{
+    background-color: gray;
+    
+}
+/*/////////////////////*/
+
+li.nav-item{
+    margin-bottom:0px;
+    margin-top: 3px;
+}
+
+.navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    margin-left: 6px;
+}
+
+
+.navbar-nav>li>a:hover:after{
+    position: ;
+    background-color: ;
+}
+
+
+
 li > a:after{
     content: '';
     display: block;
@@ -45,10 +94,21 @@ li > a:hover:after{
     color: red !important;
     font-weight: bold;
 }
-/*contacts*/
+/* contacts phone number and email*/
+.navbar-right{
+    margin-left:;
+    margin-right:6px;
+    padding-right:;
+    padding-top: ;
+    padding-left: ;
+    padding-bottom:0px;
+    
+}
 .contact{
     margin-left: ;
-    padding-right:;
+    margin-right:%;
+    padding-right:%;
+    padding-top: 6px
 }
 
 
@@ -59,5 +119,58 @@ li > a:hover:after{
 .carousel-inner{
     
     overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    padding-bottom:;
 
 }
+/*
+.item>img{
+    height: 100%;
+    width: 100%;
+    padding-top: px;
+    
+}
+*/
+.carousel-inner > .item > img {
+    width:100%;
+    height:360px;
+}
+
+/*/////////////////////////////*/
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+/*.row.content {height: 450px}*/
+
+/* Set gray background color and 100% height */
+/*
+.sidenav {
+    padding-top: 10px;
+    background-color: #f1f1f1;
+    height: auto;
+    width: auto;
+}
+*/
+
+/* Set black background color, white text and some padding */
+footer {
+    
+    background-color: #555;
+    color: gray;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+/*
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        width: auto;
+        padding: 0px;
+    }
+    .row.content {height:auto;} 
+}
+*/
