@@ -5,6 +5,26 @@
     
 }
 
+/*div containers*/
+
+.containerAssects .home{
+    display:;
+}
+
+.containerAssects .aboutUs{
+    display:none;
+}
+.containerAssects .services{
+    display:none;
+}
+.containerAssects .contacts{
+    display:none;
+}
+.containerAssects .news{display:none;
+}
+
+/*end of div containers*/
+
 /*nav*/
 ul a:hover{
     color: red !important;
@@ -13,6 +33,8 @@ ul a:hover{
 nav{
     height: ;
     background-color:;
+    margin-left: 4.7%;
+    margin-right: 4.7%;
 
 }
 
@@ -41,9 +63,6 @@ nav a{
 */
 /*navbar button layout */
 
-.navbar{
-    background-color:;
-}
 
 .navbar-default{
     margin-top: 8;
@@ -120,16 +139,34 @@ li > a:hover:after{
 }
 .contact{
     margin-left: ;
-    margin-right:-20px;
+    margin-right:;
     padding-right:%;
-    padding-top: 8px
+    padding-top: 8px;
+}
+.navbar-fixed-top-2{
+    margin-top:px;
+    padding-left: ;
+    padding-right: ;
+    background-color: grey;
+    margin-left: 
+}
+.navbar-fixed-top{
+    
+    padding-left: ;
+    padding-right: ;
+    background-color: white;  
+}
+.container-fluid .navbar-header{
+    margin-right: 4%;
+    margin-left: 4%;
+}
+/*container assects*/
+
+.containerAssects{
+    margin-top:150px;
 }
 
-
-
 /*Image carosel*/
-
-
 .carousel-inner{
     
     overflow-x: hidden;
@@ -196,3 +233,4 @@ footer {
     .row.content {height:auto;} 
 }
 */
+
