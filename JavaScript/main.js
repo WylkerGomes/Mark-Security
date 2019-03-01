@@ -57,4 +57,3 @@ $('#show_news').click(function () {
     $(".containerAssects .contacts").hide();
     $(".containerAssects .news").show();
 });
-

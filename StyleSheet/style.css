@@ -235,38 +235,40 @@ h1 {
 
 /*footer*/
 
-.contain-footer{
+#contain-footer{
     background-color: lightgray;
-    height: 300px;
+    height: 625px;
     margin-top: 20px;
     padding-left: %;
     padding-right: %;
-    padding-right:px;
-    margin-right: ;
-    margin-left: ;
 }
 
 .row{
     margin-right: px;
 }
-.col-sm-2{
-    padding-right:px;
-    margin: px;
+.col-md-2{
+    background-color: lightgray;
+    padding-bottom: 20px;
 }
 
-.col-md-12{
+.col-md-12 {
 
+    height: 340px;
     background-color: #555;
-    padding-bottom: ;
-    padding-top: ;
-    margin-top: ;
-    margin-right:px;
-    padding-left: px;
+    padding-bottom:0px ;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    position: fixed-botton;
+
 }
+
+
 
 .pull-left{
+    padding-top: 10px;
     margin-right: 10px;
 }
 .pull-right{
+    padding-top: 10px;
     margin-right: 50px;
 }
