@@ -3,13 +3,10 @@
     padding-left: 20%;
     padding-right: 22%;   
 }
-
 /*div containers*/
-
 .containerAssects .home{
     display:;
 }
-
 .containerAssects .aboutUs{
     display:none;
 }
@@ -21,42 +18,23 @@
 }
 .containerAssects .news{display:none;
 }
-
 /*end of div containers*/
 
 /*nav*/
 ul a:hover{
     color: red !important;
 }
-
 nav{
     height: ;
     margin-left: 4.7%;
     margin-right: 5.9%;
 
 }
-
 nav li{
-    text-align: center;
-/*    text-transform: uppercase; */
-    
-    
-    
+    text-align: center;  
 }
 nav a{
-    color: black!important;
-/*    font-size: 1em !important;*/
-    
-    
-}
-
-
-.navbar-default{
-/*
-    margin-top: 8;
-    background-color: black;
-    border-color: gray;
-*/
+    color: black!important;   
 }
 .navbar-default .icon-bar {
 /*    background-color: white;*/
@@ -64,53 +42,28 @@ nav a{
 .navbar-default-nav{
     background-color: gray;
     opacity: 0.6;
-    font-size: 12px;
+    font-size: 16px;
     color: black;
-
-/*
-    padding-top: -5%;
-    padding-bottom: -5%;
-*/
-    
 }
 /*/////////////////////*/
-
 li.nav-item{
     padding: 1px 2px;
-/*
-    padding-top: -5%;
-    padding-bottom: -5%;
-*/
 }
-
 /*search bar */
 .input-group{
-    margin-left: 10em;
+    margin-left: 2em;
 }
 /*nav buttons*/
 .navbar-nav>li>a {
-/*
-        padding-top: -5%;
-        padding-bottom: -5%;
-*/
     margin-left: 6px;
-    
 }
-
-
 .navbar-nav>li>a:hover:after{
     position: ;
     background-color: ;
 }
 .nav-item{
     background-color: ;
-/*
-    padding-top: -5%;
-    padding-bottom: -5%;
-*/
 }
-
-
 li > a:after{
     content: '';
     display: block;
@@ -130,9 +83,7 @@ li > a:hover:after{
     border-top-left-radius: px;
     border-top-right-radius: px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.10);
-    
 }
-
 /* contacts phone number and email*/
 .navbar-right{
     margin-left:;
@@ -141,16 +92,14 @@ li > a:hover:after{
     padding-top: ;
     padding-left: ;
     padding-bottom:0px;
-    
 }
 .nav>li>a:hover{
     background-color: lightgray;
     border-top-left-radius: px;
     border-top-right-radius: px;
-    
 }
 .contact{
-    margin-right: -51.9em;
+    margin-right: -50em;
     float: right;
     top: ;
     margin-top: -50px;
@@ -163,10 +112,8 @@ li > a:hover:after{
     background-color: lightgray;
     margin-left:; 
     color: black;
-    
 }
 .navbar-fixed-top{
-    
     padding-left: 11%;
     padding-right: 11%;
     background-color: white;  
@@ -176,42 +123,20 @@ li > a:hover:after{
     margin-left: 4%;
 }
 /*container assects*/
-
 .containerAssects{
     margin-top:150px;
 }
-
 /*Image carosel*/
 .carousel-inner{
-    
     overflow-x: hidden;
     width: 100%;
     height: 100%;
     padding-bottom:;
-
 }
-/*
-.item>img{
-    height: 100%;
-    width: 100%;
-    padding-top: px;
-    
-}
-*/
 .carousel-inner > .item > img {
     width:100%;
     height:260px;
-/*    object-fit:contain;*/
-/*
-    .fill {object-fit: fill;}
-    .contain {object-fit: contain;}
-    .cover {object-fit: cover;}
-    .scale-down {object-fit: scale-down;}
-    .none {object-fit: none;}
-*/
 }
-
-
 /*jumbotron*/
 h1.display-4 {
     margin: 0 0 50px;
@@ -229,8 +154,6 @@ p.lead{
     color: black;
     text-transform: ;
 }
-
-
 /*/////////////////////////////*/
 
 /*services*/
@@ -241,9 +164,10 @@ p.lead{
     height: 250px;
 }
 .col-sm-4{
-    width: 290px;
+    width: 250px;
     height: 650px;
     padding-bottom: 10px;
+    padding-top: 15px;
 }
 .row{
     margin-right:%;
@@ -253,10 +177,7 @@ p.lead{
     padding-bottom: 0px;
     padding-top: 5px;
 }
-
-
 /*footer*/
-
 #contain-footer{
     background-color: lightgray;
     height: 625px;
@@ -264,7 +185,6 @@ p.lead{
     padding-left: %;
     padding-right: %;
 }
-
 .row{
     margin-right: px;
 }
@@ -272,7 +192,6 @@ p.lead{
     background-color: lightgray;
     padding-bottom: 20px;
 }
-
 .col-md-12 {
 
     height: 340px;
@@ -281,11 +200,7 @@ p.lead{
     padding-top: 0px;
     margin-bottom: 0px;
     position: fixed-botton;
-
 }
-
-
-
 .pull-left{
     padding-top: 10px;
     margin-right: 10px;
@@ -295,3 +210,11 @@ p.lead{
     margin-right: 50px;
 }
 /*about us*/
+p1{
+    margin:;
+    line-height: ;
+    font-weight: ;
+    font-size: 16px;
+    color: black;
+    text-transform: ;
+}
