@@ -40,12 +40,16 @@ nav{
 
 nav li{
     text-align: center;
-    text-transform: uppercase;   
+/*    text-transform: uppercase; */
+    
+    
     
 }
 nav a{
-    color: white !important;
-    font-size: 1em !important;
+    color: black!important;
+/*    font-size: 1em !important;*/
+    
+    
 }
 
 /*
@@ -65,28 +69,49 @@ nav a{
 
 
 .navbar-default{
+/*
     margin-top: 8;
     background-color: black;
     border-color: gray;
+*/
 }
 .navbar-default .icon-bar {
-    background-color: white;
+/*    background-color: white;*/
 }
 .navbar-default-nav{
     background-color: gray;
+    opacity: 0.6;
+    font-size: 12px;
+    color: black;
+
+/*
+    padding-top: -5%;
+    padding-bottom: -5%;
+*/
     
 }
 /*/////////////////////*/
 
 li.nav-item{
-    margin-bottom:0px;
-    margin-top: 3px;
+    padding: 1px 2px;
+/*
+    padding-top: -5%;
+    padding-bottom: -5%;
+*/
 }
 
+/*search bar */
+.input-group{
+    margin-left: 10em;
+}
+/*nav buttons*/
 .navbar-nav>li>a {
-        padding-top: 15px;
-        padding-bottom: 15px;
+/*
+        padding-top: -5%;
+        padding-bottom: -5%;
+*/
     margin-left: 6px;
+    
 }
 
 
@@ -96,6 +121,10 @@ li.nav-item{
 }
 .nav-item{
     background-color: ;
+/*
+    padding-top: -5%;
+    padding-bottom: -5%;
+*/
 }
 
 
@@ -115,8 +144,8 @@ li > a:hover:after{
     color: red !important;
     font-weight: bold;
     background-color: lightgray;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-top-left-radius: px;
+    border-top-right-radius: px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.10);
     
 }
@@ -133,22 +162,25 @@ li > a:hover:after{
 }
 .nav>li>a:hover{
     background-color: lightgray;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-top-left-radius: px;
+    border-top-right-radius: px;
     
 }
 .contact{
     margin-right: -51.9em;
     float: right;
-    top: 10px;
+    top: ;
     margin-top: -50px;
 }
+/*nav bar */
 .navbar-fixed-top-2{
     margin-top:px;
     padding-left: ;
     padding-right: ;
     background-color: lightgray;
-    margin-left: 
+    margin-left:; 
+    color: black;
+    
 }
 .navbar-fixed-top{
     
